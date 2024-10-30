@@ -95,14 +95,18 @@
     }
 
     .experiencia-texto {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     .empresa {
         grid-template-columns: 1fr;
         gap: 40px;
-
     }
+
+    .empresa-texto {
+        font-size: 1rem;
+    }
+
 }
